@@ -1,0 +1,10 @@
+Environment:  cspro
+
+Compile: "make" command with "20161647.c 20161647.h" in directory 
+                   then execute file name "20161647.out" will be generated
+
+Excute: 
+
+firstly compile the source code and make exectute file "20161647.out"
+
+then call "./20161647.out"
