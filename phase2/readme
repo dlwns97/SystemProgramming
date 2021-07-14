@@ -1,0 +1,32 @@
+bash shell에서 make 를 입력하여 실행 파일 myshell을 만든다.
+
+./myshell을 통해 프로그램을 실행할 수 있다.
+
+이후 ls -al | grep myshell, ls -al | grep myshell | tail -n 2 등을 입력하여 파이프 확인이 가능하다.
+
+cat filename | grep -v abc | sort -r을 확인하기 위해서는
+
+임의의 파일을 생성하여 ex) vi dlwns, 내부에 아래와 같이
+
+abc
+1
+2
+3
+4
+5
+6
+7
+
+입력하고 cat dlwns | grep -v abc | sort -r을 실행하면
+
+7
+6
+5
+4
+3
+2
+1
+
+로 결과가 나오는 것을 확인했다.
+
+child reap 문구가 결과 확인에 불필요한 것 같아 child handler에서 이를 제외했다.

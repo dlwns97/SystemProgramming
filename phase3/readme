@@ -1,0 +1,13 @@
+bash shell에서 make를 입력하면 myshell이라는 실행 파일이 생성된다.
+
+./myshell 을 통해 프로그램을 실행할 수 있다.
+
+background 프로세스 실행 시에 프롬프트가 살짝 밀리는 현상이 있다.
+
+명령어 실행하면 sleep에 의해서 잠시 텀이 생기는 데, 이 때 ctrl-z를 입력하여
+
+foreground 실행을 stopped state로 변경할 수 있다.
+
+kill,fg,bg는 (명령어) %jobid 또는 (명령어) pid로 실행할 수 있다.
+
+어떤 프로세스가 reap된건지 시각적으로 확인하기 위해서 handler에 문구를 추가했다.

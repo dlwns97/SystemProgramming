@@ -1,0 +1,9 @@
+bash shell에서 make를 입력하여 myshell이라는 실행파일을 생성한다.
+
+./myshell을 입력하여 프로그램을 실행한다.
+
+cd와 exit은 built-in 설계하여 fork하지 않고 실행한다.
+
+나머지 명세서에 나온 명령어들은 fork하여 실행한다.
+
+결과 확인에 방해가 된다고 판단하여 child reap이라는 문구는 넣지 않았다.
